@@ -1,85 +1,167 @@
 <html>
   <head>
+    <link rel="stylesheet" href="dist/css/stylebootstrap.css">
     <title>Blog culture du numérique</title>
+    <script src="dist/js/jquery.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrap.js" ></script>
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
   </head>
-  <body>
+  <body class="bg-secondary text-white">
 
      <!-- Menu -->
-    <nav>
-      <div>
-        <a href="#"><img src="images/logo.png"></a>
-        <button>
-          <span></span>
-        </button>
-        <div>
-          <ul>
-            <li>
-              <a href="#">Accueil</a>
-            </li>
-            <li> <!-- https://www.w3schools.com/howto/howto_js_collapsible.asp -->
-              <a href="#" >
-                Articles
-              </a>
-              <ul>
-                <li><a href="#">Le numérique nous rend-il plus intelligent ?</a></li>
-                <li><a href="#">Le numérique permet-il de réduire nos impacts environnementaux ?</a></li>
-                <li><a href="#">...</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="technique.html">Démarche technique</a>
-            </li>
-          </ul>
-        </div>
+
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="dist/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        EcoWeb</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="technique.html">Démarche technique</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
-    <div*>
-      <header>
-        <h1>Titre de l'article</h1>
-      </header>
-
-      <nav>
-        <ol>
-          <li><a href="index.html">Accueil</a></li>
-          <li>Article</li>
-        </ol>
-      </nav>
-
-      <!-- Articles -->
-     <div>
-      <div>
-        <div>
-          <h5>💡 Introduction</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <br>
-          <h5>Titre de paragraphe</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.<br></p>
-          <br>
-          <h5>Titre de paragraphe</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <br>
-          <hr>
-          <br>
-          <h5>📚 Sources</h5>
-          <ul>
-            <li><a href="" target="_blank">Lien vers ressource</a></li>
-            <li><a href="" target="_blank">Lien vers ressource</a></li>
-            <li><a href="" target="_blank">Lien vers ressource</a></li>
-            <li><a href="" target="_blank">Lien vers ressource</a></li>   
-          </ul>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <header class="mt-5 mb-2 p-5">
+            <h1 class="bold">Article</h1>
+          </header>
         </div>
+     </div>
+    </div>
+
+
+  <!-- Le numérique nous rend-il plus intelligent ? -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        
+        <!-- Post Preview -->
+        <div class="post-preview">
+          <br>
+          
+            <h2 class="post-title text-primary">
+              💡Le numérique nous rend-il plus intelligent ?
+            </h2>
+          
+          <p>Internet nous permet d’avoir accès à des quantités d’informations sans précédemment, et ceux très rapidement. Mais tout cette masse d’informations nous rends-t-il utile ?</p>
+          <p>Selon Nicolas Carr, internet a été créé pour nous faire comprendre beaucoup d’information en très peu de temps, on n’accumule rien sur la longue durée.
+            Les premiers changements que internet font sur les humains, affecte leurs facultés cognitives : Difficultés à se concentrer, mémoire et de contemplation. 
+            Mais avec internet, pas besoin de se concentrer, on avale énormément d’information, très rapidement à travers des formats “simple” pour notre cerveau. 
+             Les mots, et le style de vidéo, façonne notre réflexion et absorbe plus rapidement les informations.</p>
+             <ul class="list-unstyled">
+              <li>
+               <h4 class="text-primary">La lecture et notre concentration</h4>
+                <p>Lire de manière traditionnelle perd peu à peu son efficacité face à la lecture horizontale, naviguer entre les gros titres, les résumes trouvée dans d’autre pages, etc...
+                  Maryann Wolf déclare : “"Nous sommes comment nous lisons."
+                  Internet modifie notre manière de lire, et notre façon d’absorber les informations.
+                  Ce style de lecture met en avant l’efficacité et la rapidité sur la profondeur des informations.</p></li>
+
+
+              <li>
+               
+              <h4 class="text-primary">Un pas vers les machines</h4>
+              <p>Avoir autant accès à internet devient presque une seconde nature, on en développe des automatismes, presque comme des machines.
+                L’exemple de Nicolas Carr prend en compte les joueurs de jeux vidéo, bien que internet fasse perdre des facultés cognitives, on gagne en automatisme par mouvement de répétitions.
+                Aller sur internet et absorber autant d’information devient presque une automatisation aussi.</p>
+              </li>
+              <li>
+                <h4 class="text-primary">Vaincre la facilité numérique</h4>
+                <p>Notre cerveau est malléable, et plus on le travail plus on prendra la discipline et l’automatisme de faire réfléchir notre cerveau. L’optimisation du moteur de recherche Google est à devenir, parfait. Pour donner toute informations dès la première recherche, nous évitant de nous concentrer. Si on reprend l’exemple de la lecture, plus on prend le réflexe de lire, et il est moins difficile de se concentrer. Internet nous donne le choix de la faciliter, de ne pas se concentrer et d’avaler les informations sans les retenir. Cette facilité nous rend plus dissipé. Nous devons combattre toutes ces distractions du numérique, pour ne pas céder à cette facilité. </p>
+          
+              </li>
+              <li>
+                <h4 class="text-primary">L'acclimatation de notre intelligence aux nouvelles technologies</h4>
+                <p>Tout dépend de l’utilisation :
+                  Pour une personne qui passe son temps à regarder des vidéos sans intérêts sur les réseaux sociaux ou autre, à la longue cela pourra certainement affecter ses facultés d’analyses et de réflexion parce que celles-ci ne seront pas développés.
+                  </p>
+                  <p class="text-white font-weight-bold"> La présence et la mise à disposition des plateformes telles que google ou encore l’encyclopédie en ligne Wikipédia contribue-t-il au ramollissement de notre cerveau ?</p>
+                  <p>Betsy Sparrow, une psychologue américaine de l’université de Columbia a mené une étude qui démontre que Google ne nous rend pas moins intelligents mais que notre intelligence s’acclimate aux nouvelles technologies. Par exemple plutôt que de retenir une information, les gens auront tendance à retenir l’endroit où la retrouver.
+
+                    “Je ne crois pas que l’internet nous rend nécessairement con mais je crois toutes fois qu’il rend moins débrouillard. En fait, Google nous rend moins débrouillard mais stimule notre intelligence par d’autres aspects“ Carl Charest, spétialiste en nouvelles technologies. 
+                    </p>
+              </li>
+              <li>
+                <h4 class="text-primary">Le numérique : une aide à la résolution de problèmes complexes en un temps record</h4>
+                <p> De nombreuses recherches et de nombreux témoignages démontrent qu’en effet internet ne nous rends ni plus 
+                  ni moins intelligent mais contribue à nous faciliter la vie et à vivre selon nitre temps. De nos jours 90% des personnes ne gardent pas les numéros de téléphones en tête mais les enregistres 
+                  dans leurs téléphones portables. Cela dit le fait de stoker nos informations dans des appareils numériques nous permet de libérer notre esprit afin de penser à des choses utiles voire plus importante. 
+                  Aujourd’hui, pour résoudre un problème de mathématique l’on ne se muni plus seulement de papiers et de crayons mais aussi d’une calculatrice ; cela dit des calculs qui auparavant prenaient une journée sont désormais 
+                  résolus entre 5 et 10 minutes. Imaginez le gain de temps que ces gadgets nous apportent !  Des solutions aux problèmes qui prenaient des années à être mises sur pieds sont trouvées en quelques mois aujourd’hui.
+                  </p>
+              </li>
+              <li>
+                <h4 class="text-primary">Les appareils numériques : un complément bénéfique à notre cerveau pour stimuler notre intelligence</h4>
+                <p>Selon les résultat des recherches de M.Chemero, professeur en philosophie et psychologie publiée dans le Nature Human Behaviour, le téléphones et tout appareils numériques semblent juste changer
+                  la façon dont nous utilisons nos capacités cognitives et que ces changements nous sont bénéfique sur le plan cognitif. Toujours selon lui, combiner un cerveau humain avec un appareil intelligent permet d’obtenir quelque 
+                  chose de plus intelligent. “s’il y a d’autres conséquence à l’utilisation de ces technologies, le fait fait de nous rendre stupide n’en est pas une. “ M.Chemero</p>
+              </li>
+
+            </ul>
+        </div>
+        <hr class="bg-primary">
+
+        <!-- Pagination -->
       </div>
     </div>
   </div>
 
+
+
+  <section id="sources">
+    <div class="container text-white">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Sources</h2>
+          <hr class="my-4 bg-primary">
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 col-sm-6">
+          <div class="source-item">
+            <h4>The atlantic</h4>
+            <p>Is Google Making Us Stupid?</p>
+            <a href="https://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/306868/" class="btn btn-primary" target="_blank">Lien</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="source-item">
+            <h4>Journal Métro</h4>
+            <p>Internet nous rend-il cons?</p>
+            <a href="https://journalmetro.com/societe/techno/49067/internet-nous-rend-il-cons/" class="btn btn-primary" target="_blank">Lien</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="source-item">
+            <h4>PIEUVRE</h4>
+            <p>Les technologies « intelligentes »...</p>
+            <a href="https://www.pieuvre.ca/2021/07/05/societe-comportement-technologie-intelligente-stupidite/" class="btn btn-primary" target="_blank">Lien</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="my-4 bg-primary">
+
+
     <!-- Footer -->
-    <footer>
-      <p>Par <span style="font-weight: bold; text-transform: uppercase;">[ vos noms + groupe(s) ]</span> - BUT MMI 2023 - Culture du numérique</p>
+    <footer class="mt-3 mb-0 py-3 text-center">
+      <p class="text-center my-0">Par <span style="font-weight: bold; text-transform: uppercase;"> Annais Tchewo - Manon Le Bouard - Mathieu Robert - TP F</span> - BUT MMI 2023 - Culture du numérique</p>
     </footer>
 
   </body>

@@ -6,13 +6,13 @@
     <script type="text/javascript" src="dist/js/bootstrap.js" ></script>
     <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
   </head>
-  <body>
+  <body class="bg-secondary text-white">
 
     <!-- Menu -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
         <img src="dist/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        Navbar</a>
+        EcoWeb</a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,157 +21,37 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Articles
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Le numérique nous rend-il plus intelligent ?</a>
-              <a class="dropdown-item" href="#">La numérique permet-il de réduire nos impacts environnementaux ?</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <a class="nav-link" href="article.html">Article</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="technique.html">Démarche technique</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
 
 
-    <nav class="navbar">
-      <div>
-        <a href="#"><img src="dist/images/logo.png"></a>
-        <div>
-          <ul>
-            <li>
-              <a href="#">Accueil</a>
-            </li>
-            <li> <!-- https://www.w3schools.com/howto/howto_js_collapsible.asp -->
-              <a href="#" >
-                Articles
-              </a>
-              <ul>
-                <li><a href="#">Le numérique nous rend-il plus intelligent ?</a></li>
-                <li><a href="#">La numérique permet-il de réduire nos impacts environnementaux ?</a></li>
-                <li><a href="#">...</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="technique.html">Démarche technique</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-
-    <div>
-      <header>
-        <h1>Blog culture du numérique 🖋️🌍</h1>
+ <div class="container">
+  <div class="row text-center">
+    <div class="col-md-12">
+      <header class="mt-5 mb-2 p-5">
+        <h1 class="bold">Acceuil</h1>
       </header>
+    </div>
+ </div>
+</div>
 
-      <!-- Articles -->
-     <div>
-        <img src="dist/images/article_1.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique nous rend-il plus intelligent ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>
 
-      <div>
-        <img src="dist/images/article_2.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique permet-il de réduire nos impacts environnementaux ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>      
-     <div>
-        <img src="dist/images/article_3.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique nous rend-il plus intelligent ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>
-
-      <div>
-        <img src="dist/images/article_4.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique permet-il de réduire nos impacts environnementaux ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>      
-     <div>
-        <img src="dist/images/article_5.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique nous rend-il plus intelligent ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>
-
-      <div>
-        <img src="dist/images/article_6.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique permet-il de réduire nos impacts environnementaux ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>      
-     <div>
-        <img src="dist/images/article_7.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique nous rend-il plus intelligent ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>
-
-      <div>
-        <img src="dist/images/article_8.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique permet-il de réduire nos impacts environnementaux ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>      
-     <div>
-        <img src="dist/images/article_1.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique nous rend-il plus intelligent ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>
-
-      <div>
-        <img src="dist/images/article_2.png" alt="description de la photo">
-        <div>
-          <h5>Le numérique permet-il de réduire nos impacts environnementaux ?</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus dignissim, ornare nisi sed, sollicitudin ex. Cras posuere pellentesque sem, sit amet elementum nulla congue non. Quisque a mattis ante. Praesent rutrum nisl non mi vestibulum vulputate. Nulla facilisi.</p>
-          <a href="article.html">Voir l'article complet</a>
-        </div>
-      </div>      
+ECRIT ICI 
 
 
     <!-- Footer -->
-    <footer>
-      <p>Par <span style="font-weight: bold; text-transform: uppercase;">Annais - Manon - Mathieu - TP F</span> - BUT MMI 2023 - Culture du numérique</p>
+    <footer class="mt-3 mb-0 py-3 text-center">
+      <p class="text-center my-0">Par <span style="font-weight: bold; text-transform: uppercase;"> Annais Tchewo - Manon Le Bouard - Mathieu Robert - TP F</span> - BUT MMI 2023 - Culture du numérique</p>
     </footer>
 
   </body>
